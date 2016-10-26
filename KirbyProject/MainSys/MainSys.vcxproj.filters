@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Stage1">
+      <UniqueIdentifier>{db142dbd-5ec0-4697-bd83-0e0124143d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage1\Block">
+      <UniqueIdentifier>{abed7d12-509a-434a-bd32-133e025eee31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{00c68bf3-4e26-4aa3-afcd-7081d304f04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\CutterKirby">
+      <UniqueIdentifier>{204b47db-74a6-486e-ad1c-5301fb280131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{0d0d4a63-af3b-45d4-a814-ab58b6c4829d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\Missile">
+      <UniqueIdentifier>{50a871bd-7849-4e74-80e6-18f7ade6d4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\Item">
+      <UniqueIdentifier>{4165ade6-af43-4b29-9619-5e4696bae565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{1b13facb-55cc-4d14-82cb-94a0de3f5cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image">
+      <UniqueIdentifier>{ff5eed58-9433-49c9-ab87-21943d070e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Sound">
+      <UniqueIdentifier>{e25e571a-5302-46f5-bdb2-0a25f6d359a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Animation">
+      <UniqueIdentifier>{0cea33c3-ad05-46f8-b0c1-1d745d37d783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{47825989-99e9-4f71-a802-710fd0b95d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies\Boss">
+      <UniqueIdentifier>{c24ced31-d4fe-4012-979f-0272537cac23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies\Enemies">
+      <UniqueIdentifier>{32185a37-3c71-4aae-9075-0ed4ac287a86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainSystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1-1.h">
+      <Filter>Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1-2.h">
+      <Filter>Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Stage1\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>Stage1\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Kirby.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="KirbyState.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="CutterKirby.h">
+      <Filter>character\CutterKirby</Filter>
+    </ClInclude>
+    <ClInclude Include="CutterKirbyState.h">
+      <Filter>character\CutterKirby</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="AirShot.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="BossIce.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Cutter.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemiesCutter.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileManager.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="StarShot.h">
+      <Filter>Effect\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CutterStar.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DanceStar.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="KirbyStar.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStar.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Tomato.h">
+      <Filter>Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Enemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>Enemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemiesManager.h">
+      <Filter>Enemies\Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Test.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainSystem.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1-1.cpp">
+      <Filter>Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_2.cpp">
+      <Filter>Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Stage1\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>Stage1\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Kirby.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="KirbyState.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="CutterKirby.cpp">
+      <Filter>character\CutterKirby</Filter>
+    </ClCompile>
+    <ClCompile Include="CutterKirbyState.cpp">
+      <Filter>character\CutterKirby</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="AirShot.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="BossIce.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Cutter.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemiesCutter.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileManager.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="StarShot.cpp">
+      <Filter>Effect\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CutterStar.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DanceStar.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="KirbyStar.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalStar.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Tomato.cpp">
+      <Filter>Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Enemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossState.cpp">
+      <Filter>Enemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies.cpp">
+      <Filter>Enemies\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemiesManager.cpp">
+      <Filter>Enemies\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemiesState.cpp">
+      <Filter>Enemies\Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\CutterKirby.image">
+      <Filter>Resource\Image</Filter>
+    </None>
+    <None Include="Resource\image.image">
+      <Filter>Resource\Image</Filter>
+    </None>
+    <None Include="Resource\Kirby.image">
+      <Filter>Resource\Image</Filter>
+    </None>
+    <None Include="Resource\Stage1-1.image">
+      <Filter>Resource\Image</Filter>
+    </None>
+    <None Include="Resource\Title.image">
+      <Filter>Resource\Image</Filter>
+    </None>
+    <None Include="Resource\BGM.sound">
+      <Filter>Resource\Sound</Filter>
+    </None>
+    <None Include="Resource\Effect.sound">
+      <Filter>Resource\Sound</Filter>
+    </None>
+    <None Include="Resource\sound.sound">
+      <Filter>Resource\Sound</Filter>
+    </None>
+    <None Include="Resource\CutterKirby.animation">
+      <Filter>Resource\Animation</Filter>
+    </None>
+    <None Include="Resource\Effect.animation">
+      <Filter>Resource\Animation</Filter>
+    </None>
+    <None Include="Resource\Enemies.animation">
+      <Filter>Resource\Animation</Filter>
+    </None>
+    <None Include="Resource\Kirby.animation">
+      <Filter>Resource\Animation</Filter>
+    </None>
+    <None Include="Resource\Title.animation">
+      <Filter>Resource\Animation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Enemies.h">
+      <Filter>Enemies\Enemies</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EnemiesState.h">
+      <Filter>Enemies\Enemies</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

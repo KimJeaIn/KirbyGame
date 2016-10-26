@@ -25,6 +25,15 @@
     <Filter Include="Base\Graphic">
       <UniqueIdentifier>{f68931e9-fea0-48d9-8ccc-8364622c3f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Base\Object">
+      <UniqueIdentifier>{d828a316-1e6a-4929-95ae-951fad341c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Resourse">
+      <UniqueIdentifier>{d008ed2d-a995-4175-a816-5c87336bc97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound">
+      <UniqueIdentifier>{10599e23-128e-4f4c-8248-477b4814c889}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestApp.cpp">
@@ -44,6 +53,54 @@
     </ClCompile>
     <ClCompile Include="Control.cpp">
       <Filter>Base\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Base\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapManager.cpp">
+      <Filter>Base\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Base\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryBox.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Base\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Base\control</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadAnimationResource.cpp">
+      <Filter>Base\Resourse</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadImageResource.cpp">
+      <Filter>Base\Resourse</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSoundResource.cpp">
+      <Filter>Base\Resourse</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessageBox.cpp">
+      <Filter>Base\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGlobal.cpp">
+      <Filter>Base\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Base\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Base\utility</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +130,51 @@
     </ClInclude>
     <ClInclude Include="Control.h">
       <Filter>Base\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Base\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapManager.h">
+      <Filter>Base\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Base\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryBox.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="statemachine.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Base\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Base\control</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadAnimationResource.h">
+      <Filter>Base\Resourse</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadImageResource.h">
+      <Filter>Base\Resourse</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSoundResource.h">
+      <Filter>Base\Resourse</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGlobal.h">
+      <Filter>Base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Base\utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

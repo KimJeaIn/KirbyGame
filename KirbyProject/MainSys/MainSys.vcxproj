@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A50EA98B-DE74-45A2-89DE-448A6A4ED0C9}</ProjectGuid>
+    <RootNamespace>MainSys</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24730.2</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AirShot.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BlockManager.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossIce.h" />
+    <ClInclude Include="BossState.h" />
+    <ClInclude Include="Cutter.h" />
+    <ClInclude Include="CutterKirby.h" />
+    <ClInclude Include="CutterKirbyState.h" />
+    <ClInclude Include="CutterStar.h" />
+    <ClInclude Include="DanceStar.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectManager.h" />
+    <CustomBuild Include="Enemies.h" />
+    <ClInclude Include="EnemiesCutter.h" />
+    <ClInclude Include="EnemiesManager.h" />
+    <CustomBuild Include="EnemiesState.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="Kirby.h" />
+    <ClInclude Include="KirbyStar.h" />
+    <ClInclude Include="KirbyState.h" />
+    <ClInclude Include="MainSystem.h" />
+    <ClInclude Include="MissileManager.h" />
+    <ClInclude Include="NormalStar.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Stage1-1.h" />
+    <ClInclude Include="Stage1-2.h" />
+    <ClInclude Include="StarShot.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Tomato.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Test.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirShot.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="BlockManager.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossIce.cpp" />
+    <ClCompile Include="BossState.cpp" />
+    <ClCompile Include="Cutter.cpp" />
+    <ClCompile Include="CutterKirby.cpp" />
+    <ClCompile Include="CutterKirbyState.cpp" />
+    <ClCompile Include="CutterStar.cpp" />
+    <ClCompile Include="DanceStar.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="Enemies.cpp" />
+    <ClCompile Include="EnemiesCutter.cpp" />
+    <ClCompile Include="EnemiesManager.cpp" />
+    <ClCompile Include="EnemiesState.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="Kirby.cpp" />
+    <ClCompile Include="KirbyStar.cpp" />
+    <ClCompile Include="KirbyState.cpp" />
+    <ClCompile Include="MainSystem.cpp" />
+    <ClCompile Include="MissileManager.cpp" />
+    <ClCompile Include="NormalStar.cpp" />
+    <ClCompile Include="Stage1-1.cpp" />
+    <ClCompile Include="Stage1_2.cpp" />
+    <ClCompile Include="StarShot.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="Tomato.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\BGM.sound" />
+    <None Include="Resource\CutterKirby.animation" />
+    <None Include="Resource\CutterKirby.image" />
+    <None Include="Resource\Effect.animation" />
+    <None Include="Resource\Effect.sound" />
+    <None Include="Resource\Enemies.animation" />
+    <None Include="Resource\image.image" />
+    <None Include="Resource\Kirby.animation" />
+    <None Include="Resource\Kirby.image" />
+    <None Include="Resource\sound.sound" />
+    <None Include="Resource\Stage1-1.image" />
+    <None Include="Resource\Title.animation" />
+    <None Include="Resource\Title.image" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameDev\GameDev.vcxproj">
+      <Project>{374a0492-cfe9-4582-9f2c-2bc2899eb989}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
