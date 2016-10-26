@@ -1,0 +1,18 @@
+// id 파일명 그려질부분 transparent사용여부 [값1] alpha사용여부 [값2]
+// [값1] : 투명처리할 색
+// [값2] : 알파값
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+KirbyStd Resource\\image\\Kirby_base.bmp 6,8,26,27 1 cfb0ff 0
+KirbyStdBack Resource\\image\\Kirby_base_back.bmp 734,8,754,27 1 cfb0ff 0
+KirbyFatStd Resource\\image\\Kirby_base.bmp 6,429,31,451 1 cfb0ff 0
+KirbyFatStdBack Resource\\image\\Kirby_base_back.bmp 729,429,754,451 1 cfb0ff 0
+KirbyBreak Resource\\image\\Kirby_base.bmp 190,80,214,101 1 cfb0ff 0
+KirbyBreakBack Resource\\image\\Kirby_base_back.bmp 546,80,570,101 1 cfb0ff 0
+KirbyFatBreak Resource\\image\\Kirby_base.bmp 365,459,390,483 1 cfb0ff 0
+KirbyFatBreakBack Resource\\image\\Kirby_base_back.bmp 370,459,395,483 1 cfb0ff 0
+KirbyJumpStart Resource\\image\\Kirby_base.bmp 6,104,27,125 1 cfb0ff 0
+KirbyJumpStartBack Resource\\image\\Kirby_base_back.bmp 733,104,754,125 1 cfb0ff 0
+KirbyFatJumpStart Resource\\image\\Kirby_base.bmp 30,487,56,511 1 cfb0ff 0
+KirbyFatJumpStartBack Resource\\image\\Kirby_base_back.bmp 705,487,731,511 1 cfb0ff 0
+KirbyDeadStart Resource\\image\\Kirby_base.bmp 29,717,52,740 1 cfb0ff 0
+KirbyDanceEnd Resource\\image\\Kirby_base.bmp 242,5,261,27 1 cfb0ff 0

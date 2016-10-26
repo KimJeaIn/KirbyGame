@@ -1,0 +1,290 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+WaddleDeeMove 8 1 100
+Resource\\image\\Enemies.bmp 3,2729,24,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 27,2729,48,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 51,2729,72,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 75,2729,96,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 100,2729,122,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 126,2729,147,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 150,2729,171,2749 1 00dbff 0
+Resource\\image\\Enemies.bmp 174,2729,195,2749 1 00dbff 0
+WaddleDeeMoveBack 8 1 100
+Resource\\image\\Enemies_back.bmp 817,2729,838,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 793,2729,814,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 769,2729,790,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 745,2729,766,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 719,2729,741,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 694,2729,715,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 670,2729,691,2749 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 646,2729,667,2749 1 00dbff 0
+WaddleDeeHit 16 0 30
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+Resource\\image\\Enemies.bmp 443,2728,464,2748 1 00dbff 0
+WaddleDeeHitBack 16 0 30
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 377,2728,398,2748 1 00dbff 0
+EnemiesDead 4 0 100
+Resource\\image\\Effects.bmp 154,41,172,59 1 000070 0
+Resource\\image\\Effects.bmp 187,41,205,59 1 000070 0
+Resource\\image\\Effects.bmp 141,22,159,40 1 000070 0
+Resource\\image\\Effects.bmp 206,41,224,59 1 000070 0
+KibbleIdle 4 0 200
+Resource\\image\\Enemies.bmp 3,2230,28,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 31,2230,56,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 59,2230,84,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 87,2230,112,2252 1 00dbff 0
+KibbleIdleBack 4 0 200
+Resource\\image\\Enemies_back.bmp 813,2230,838,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 785,2230,810,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 757,2230,782,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 729,2230,754,2252 1 00dbff 0
+KibbleAtt 9 0 60
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 246,2228,270,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 273,2228,297,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 301,2228,325,2252 1 00dbff 0
+KibbleAttBack 9 0 60
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 571,2228,595,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 544,2228,568,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 516,2228,540,2252 1 00dbff 0
+KibbleHit 16 0 30
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+Resource\\image\\Enemies.bmp 475,2228,499,2252 1 00dbff 0
+KibbleHitBack 16 0 30
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 342,2228,366,2252 1 00dbff 0
+BrontoMove 11 1 20
+Resource\\image\\Enemies.bmp 2,320,26,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 2,320,26,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 2,320,26,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 2,320,26,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 28,320,52,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 54,320,78,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 80,320,104,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 2,320,26,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 28,320,52,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 54,320,78,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 80,320,104,339 1 00dbff 0
+BrontoMoveBack 11 1 20
+Resource\\image\\Enemies_back.bmp 815,320,839,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 815,320,839,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 815,320,839,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 815,320,839,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 789,320,813,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 763,320,787,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 737,320,761,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 815,320,839,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 789,320,813,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 763,320,787,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 737,320,761,339 1 00dbff 0
+BrontoHit 16 0 30
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+Resource\\image\\Enemies.bmp 142,320,166,339 1 00dbff 0
+BrontoHitBack 16 0 30
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+Resource\\image\\Enemies_back.bmp 675,320,699,339 1 00dbff 0
+WaddleDeeDrainHit 1 1 30
+Resource\\image\\Enemies.bmp 417,2728,438,2748 1 00dbff 0
+WaddleDeeDrainHitBack 1 1 30
+Resource\\image\\Enemies_back.bmp 403,2728,424,2748 1 00dbff 0
+KibbleDrainHit 1 1 30
+Resource\\image\\Enemies.bmp 447,2228,471,2252 1 00dbff 0
+KibbleDrainHitBack 1 1 30
+Resource\\image\\Enemies_back.bmp 370,2228,394,2252 1 00dbff 0
+BrontoDrainHit 1 1 30
+Resource\\image\\Enemies.bmp 117,320,141,339 1 00dbff 0
+BrontoDrainHitBack 1 1 30
+Resource\\image\\Enemies_back.bmp 700,320,724,339 1 00dbff 0
+BossEye 1 0 150
+Resource\\image\\Boss.bmp 54,5,102,45 1 789860 0
+BossEyeBack 1 0 150
+Resource\\image\\Boss_back.bmp 103,5,151,45 1 789860 0
+BossRage 15 0 120
+Resource\\image\\Boss.bmp 5,46,53,94 1 789860 0
+Resource\\image\\Boss.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss.bmp 5,46,53,94 1 789860 0
+Resource\\image\\Boss.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss.bmp 5,46,53,94 1 789860 0
+Resource\\image\\Boss.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss.bmp 5,46,53,94 1 789860 0
+Resource\\image\\Boss.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss.bmp 5,46,53,94 1 789860 0
+Resource\\image\\Boss.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss.bmp 103,46,151,94 1 789860 0
+BossRageBack 15 0 120
+Resource\\image\\Boss_back.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss_back.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss_back.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss_back.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss_back.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss_back.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss_back.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss_back.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss_back.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss_back.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss_back.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss_back.bmp 54,46,102,94 1 789860 0
+Resource\\image\\Boss_back.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss_back.bmp 103,46,151,94 1 789860 0
+Resource\\image\\Boss_back.bmp 54,46,102,94 1 789860 0
+BossDance 9 0 150
+Resource\\image\\Boss.bmp 5,95,53,135 1 789860 0
+Resource\\image\\Boss.bmp 54,95,102,135 1 789860 0
+Resource\\image\\Boss.bmp 103,95,151,135 1 789860 0
+Resource\\image\\Boss.bmp 5,95,53,135 1 789860 0
+Resource\\image\\Boss.bmp 54,95,102,135 1 789860 0
+Resource\\image\\Boss.bmp 103,95,151,135 1 789860 0
+Resource\\image\\Boss.bmp 5,95,53,135 1 789860 0
+Resource\\image\\Boss.bmp 54,95,102,135 1 789860 0
+Resource\\image\\Boss.bmp 103,95,151,135 1 789860 0
+BossDanceBack 9 0 150
+Resource\\image\\Boss_back.bmp 152,95,200,135 1 789860 0
+Resource\\image\\Boss_back.bmp 103,95,151,135 1 789860 0
+Resource\\image\\Boss_back.bmp 54,95,102,135 1 789860 0
+Resource\\image\\Boss_back.bmp 152,95,200,135 1 789860 0
+Resource\\image\\Boss_back.bmp 103,95,151,135 1 789860 0
+Resource\\image\\Boss_back.bmp 54,95,102,135 1 789860 0
+Resource\\image\\Boss_back.bmp 152,95,200,135 1 789860 0
+Resource\\image\\Boss_back.bmp 103,95,151,135 1 789860 0
+Resource\\image\\Boss_back.bmp 54,95,102,135 1 789860 0
+BossAttack 12 1 100
+Resource\\image\\Boss.bmp 5,136,53,184 1 789860 0
+Resource\\image\\Boss.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss.bmp 152,136,200,184 1 789860 0
+Resource\\image\\Boss.bmp 5,136,53,184 1 789860 0
+Resource\\image\\Boss.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss.bmp 152,136,200,184 1 789860 0
+Resource\\image\\Boss.bmp 5,136,53,184 1 789860 0
+Resource\\image\\Boss.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss.bmp 152,136,200,184 1 789860 0
+BossAttackBack 12 1 100
+Resource\\image\\Boss_back.bmp 152,136,200,184 1 789860 0
+Resource\\image\\Boss_back.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss_back.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss_back.bmp 5,136,53,184 1 789860 0
+Resource\\image\\Boss_back.bmp 152,136,200,184 1 789860 0
+Resource\\image\\Boss_back.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss_back.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss_back.bmp 5,136,53,184 1 789860 0
+Resource\\image\\Boss_back.bmp 152,136,200,184 1 789860 0
+Resource\\image\\Boss_back.bmp 103,136,151,184 1 789860 0
+Resource\\image\\Boss_back.bmp 54,136,102,184 1 789860 0
+Resource\\image\\Boss_back.bmp 5,136,53,184 1 789860 0
+BossShot 4 0 150
+Resource\\image\\Boss_back.bmp 152,185,200,233 1 789860 0
+Resource\\image\\Boss_back.bmp 103,185,151,233 1 789860 0
+Resource\\image\\Boss_back.bmp 54,185,102,233 1 789860 0
+Resource\\image\\Boss_back.bmp 5,185,53,233 1 789860 0
+BossShotBack 4 0 150
+Resource\\image\\Boss.bmp 5,185,53,233 1 789860 0
+Resource\\image\\Boss.bmp 54,185,102,233 1 789860 0
+Resource\\image\\Boss.bmp 103,185,151,233 1 789860 0
+Resource\\image\\Boss.bmp 152,185,200,233 1 789860 0
+BossEnd 2 1 100
+Resource\\image\\Boss.bmp 152,46,200,94 1 789860 0
+Resource\\image\\Boss.bmp 5,283,53,331 1 789860 0

@@ -1,0 +1,11 @@
+// id 파일명 그려질부분 transparent사용여부 [값1] alpha사용여부 [값2]
+// [값1] : 투명처리할 색
+// [값2] : 알파값
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+TitleStd Resource\\image\\Title.bmp 13,19,203,144 1 000000 0
+TitleBack Resource\\image\\titleback.bmp 0,0,225,155 0 0
+GameOver Resource\\image\\GameOver.bmp 2,3,258,225 0 0
+KirbyState Resource\\image\\Stats_Bar.bmp 0,0,205,65 1 a349a4 0
+KirbyHp Resource\\image\\HP_Bar.bmp 0,0,64,18 0 0
+BossState Resource\\image\\BossHP.bmp 0,0,154,40 0 0
+BossHp Resource\\image\\BossHPBar.bmp 0,0,137,15 0 0

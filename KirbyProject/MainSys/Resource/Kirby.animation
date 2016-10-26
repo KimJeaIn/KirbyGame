@@ -1,0 +1,332 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+KirbyMove 10 1 70
+Resource\\image\\Kirby_base.bmp 5,58,29,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 28,58,52,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 51,58,75,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 74,58,98,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 97,58,121,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 120,58,144,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 143,58,167,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 166,58,190,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 189,58,213,77 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 212,58,236,77 1 cfb0ff 0
+KirbyMoveBack 10 1 70
+Resource\\image\\Kirby_base_back.bmp 731,58,755,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 708,58,732,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 685,58,709,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 662,58,686,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 639,58,663,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 616,58,640,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 593,58,617,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 570,58,594,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 547,58,571,77 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 524,58,548,77 1 cfb0ff 0
+KirbyRun 8 1 60
+Resource\\image\\Kirby_base.bmp 5,80,27,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 27,80,49,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 49,80,71,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 71,80,93,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 94,80,120,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 123,80,145,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 145,80,167,101 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 167,80,189,101 1 cfb0ff 0
+KirbyRunBack 8 1 60
+Resource\\image\\Kirby_base_back.bmp 733,80,755,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 711,80,733,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 689,80,711,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 667,80,689,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 640,80,666,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 615,80,637,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 593,80,615,101 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 571,80,593,101 1 cfb0ff 0
+KirbyStdEye 1 0 150
+Resource\\image\\Kirby_base.bmp 30,8,50,27 1 cfb0ff 0
+KirbyStdEyeBack 1 0 150
+Resource\\image\\Kirby_base_back.bmp 710,8,730,27 1 cfb0ff 0
+KirbyFatStdEye 1 0 150
+Resource\\image\\Kirby_base.bmp 35,429,60,451 1 cfb0ff 0
+KirbyFatStdEyeBack 1 0 150
+Resource\\image\\Kirby_base_back.bmp 700,429,725,451 1 cfb0ff 0
+KirbyRolling 6 0 30
+Resource\\image\\Kirby_base.bmp 27,104,48,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 51,104,73,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 76,104,98,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 101,104,123,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 125,104,147,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 150,104,172,125 1 cfb0ff 0
+KirbyRollingBack 6 0 30
+Resource\\image\\Kirby_base_back.bmp 712,104,733,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 687,104,709,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 662,104,684,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 637,104,659,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 613,104,635,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 588,104,610,125 1 cfb0ff 0
+KirbyJumpEnd 2 1 100
+Resource\\image\\Kirby_base.bmp 175,104,197,125 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 200,104,222,125 1 cfb0ff 0
+KirbyJumpEndBack 2 1 100
+Resource\\image\\Kirby_base_back.bmp 563,104,585,125 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 538,104,560,125 1 cfb0ff 0
+KirbyLanding 1 0 70
+Resource\\image\\Kirby_base.bmp 225,104,250,125 1 cfb0ff 0
+KirbyLandingBack 1 0 70
+Resource\\image\\Kirby_base_back.bmp 510,104,535,125 1 cfb0ff 0
+KirbyFloatStart 5 0 50
+Resource\\image\\Kirby_base.bmp 6,153,29,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 32,153,55,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 56,153,79,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 80,153,103,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 105,153,128,178 1 cfb0ff 0
+KirbyFloatStartBack 5 0 50
+Resource\\image\\Kirby_base_back.bmp 731,153,754,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 705,153,728,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 681,153,704,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 657,153,680,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 632,153,655,178 1 cfb0ff 0
+KirbyFloat 2 1 100
+Resource\\image\\Kirby_base.bmp 129,153,155,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 157,153,183,178 1 cfb0ff 0
+KirbyFloatBack 2 1 100
+Resource\\image\\Kirby_base_back.bmp 605,153,631,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 577,153,603,178 1 cfb0ff 0
+KirbyFloatUp 4 0 50
+Resource\\image\\Kirby_base.bmp 185,153,211,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 213,153,239,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 243,153,269,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 272,153,298,178 1 cfb0ff 0
+KirbyFloatUpBack 4 0 50
+Resource\\image\\Kirby_base_back.bmp 549,153,575,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 521,153,547,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 491,153,517,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 462,153,488,178 1 cfb0ff 0
+KirbyFloatEnd 2 0 50
+Resource\\image\\Kirby_base.bmp 80,153,103,178 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 56,153,79,178 1 cfb0ff 0
+KirbyFloatEndBack 2 0 50
+Resource\\image\\Kirby_base_back.bmp 657,153,680,178 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 681,153,704,178 1 cfb0ff 0
+KirbyDrainStart 4 0 50
+Resource\\image\\Kirby_base.bmp 5,378,29,398 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 31,378,55,398 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 57,378,81,398 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 83,378,107,398 1 cfb0ff 0
+KirbyDrainStartBack 4 0 50
+Resource\\image\\Kirby_base_back.bmp 731,378,755,398 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 705,378,729,398 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 679,378,703,398 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 653,378,677,398 1 cfb0ff 0
+KirbyDrain 2 1 40
+Resource\\image\\Kirby_base.bmp 109,378,133,398 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 108,378,132,398 1 cfb0ff 0
+KirbyDrainBack 2 1 40
+Resource\\image\\Kirby_base_back.bmp 627,378,651,398 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 628,378,652,398 1 cfb0ff 0
+KirbyHit 16 0 30
+Resource\\image\\Kirby_base.bmp 32,624,54,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 224,658,246,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 58,624,80,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 249,658,271,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 80,624,102,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 272,658,294,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 103,624,125,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 295,658,317,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 128,624,150,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 320,658,344,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 154,624,176,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 152,658,174,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 178,624,200,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 176,658,198,678 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 201,624,223,644 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 199,658,221,678 1 cfb0ff 0
+KirbyHitBack 16 0 30
+Resource\\image\\Kirby_base_back.bmp 706,624,728,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 514,658,536,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 680,624,702,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 489,658,511,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 658,624,680,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 466,658,488,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 635,624,657,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 443,658,465,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 610,624,632,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 416,658,438,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 584,624,606,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 586,658,608,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 560,624,582,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 562,658,584,678 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 537,624,559,644 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 539,658,561,678 1 cfb0ff 0
+KirbyFatMove 13 1 70
+Resource\\image\\Kirby_base.bmp 5,459,30,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 33,459,58,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 61,459,86,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 88,459,113,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 115,459,140,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 143,459,168,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 171,459,196,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 198,459,223,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 225,459,250,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 253,459,278,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 281,459,306,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 309,459,334,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 337,459,362,483 1 cfb0ff 0
+KirbyFatMoveBack 13 1 70
+Resource\\image\\Kirby_base_back.bmp 730,459,755,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 702,459,727,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 674,459,699,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 647,459,672,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 620,459,645,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 592,459,617,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 564,459,589,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 537,459,562,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 510,459,535,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 482,459,507,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 454,459,479,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 426,459,451,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 398,459,423,483 1 cfb0ff 0
+KirbyFatRun 13 1 30
+Resource\\image\\Kirby_base.bmp 5,459,30,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 33,459,58,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 61,459,86,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 88,459,113,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 115,459,140,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 143,459,168,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 171,459,196,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 198,459,223,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 225,459,250,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 253,459,278,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 281,459,306,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 309,459,334,483 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 337,459,362,483 1 cfb0ff 0
+KirbyFatRunBack 13 1 30
+Resource\\image\\Kirby_base_back.bmp 730,459,755,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 702,459,727,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 674,459,699,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 647,459,672,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 620,459,645,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 592,459,617,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 564,459,589,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 537,459,562,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 510,459,535,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 482,459,507,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 454,459,479,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 426,459,451,483 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 398,459,423,483 1 cfb0ff 0
+KirbyFatRolling 3 0 60
+Resource\\image\\Kirby_base.bmp 57,487,83,511 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 85,487,111,511 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 114,487,140,511 1 cfb0ff 0
+KirbyFatRollingBack 3 0 60
+Resource\\image\\Kirby_base_back.bmp 677,487,703,511 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 649,487,675,511 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 620,487,646,511 1 cfb0ff 0
+KirbyFatJumpEnd 1 1 100
+Resource\\image\\Kirby_base.bmp 144,487,170,511 1 cfb0ff 0
+KirbyFatJumpEndBack 1 1 100
+Resource\\image\\Kirby_base_back.bmp 590,487,616,511 1 cfb0ff 0
+KirbyFatLanding 1 0 70
+Resource\\image\\Kirby_base.bmp 173,487,202,511 1 cfb0ff 0
+KirbyFatLandingBack 1 0 70
+Resource\\image\\Kirby_base_back.bmp 558,487,587,511 1 cfb0ff 0
+KirbyShotStart 11 0 20
+Resource\\image\\Kirby_base.bmp 3,522,78,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 70,522,146,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 144,522,220,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 218,522,294,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 294,522,370,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 371,522,447,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 448,522,524,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 526,522,602,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 661,522,737,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 661,522,737,547 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 661,522,737,547 1 cfb0ff 0
+KirbyShotStartBack 11 0 20
+Resource\\image\\Kirby_base_back.bmp 682,522,758,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 614,522,690,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 540,522,616,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 466,522,542,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 390,522,466,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 313,522,389,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 236,522,312,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 158,522,234,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 23,522,99,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 23,522,99,547 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 23,522,99,547 1 cfb0ff 0
+KirbyShotEnd 3 0 20
+Resource\\image\\Kirby_base.bmp 72,551,94,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 97,551,119,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 123,551,145,572 1 cfb0ff 0
+KirbyShotEndBack 3 0 20
+Resource\\image\\Kirby_base_back.bmp 666,551,688,572 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 641,551,663,572 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 615,551,637,572 1 cfb0ff 0
+KirbyFatHit 16 0 30
+Resource\\image\\Kirby_base.bmp 6,801,32,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 6,801,32,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 35,801,61,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 35,801,61,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 64,801,90,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 64,801,90,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 94,801,120,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 94,801,120,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 6,801,32,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 6,801,32,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 35,801,61,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 35,801,61,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 64,801,90,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 64,801,90,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 94,801,120,825 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 94,801,120,825 1 cfb0ff 0
+KirbyFatHitBack 16 0 30
+Resource\\image\\Kirby_base_back.bmp 728,801,754,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 728,801,754,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 699,801,725,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 699,801,725,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 670,801,696,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 670,801,696,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 640,801,666,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 640,801,666,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 728,801,754,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 728,801,754,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 699,801,725,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 699,801,725,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 670,801,696,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 670,801,696,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 640,801,666,825 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 640,801,666,825 1 cfb0ff 0
+KirbyDead 16 1 20
+Resource\\image\\Kirby_base.bmp 4,211,27,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 28,211,51,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 54,211,77,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 80,211,103,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 106,211,129,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 131,211,154,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 158,211,181,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 183,211,206,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 207,211,230,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 231,211,254,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 257,211,280,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 283,211,306,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 309,211,332,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 334,211,357,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 361,211,384,234 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 386,211,409,234 1 cfb0ff 0
+KirbyEat 6 0 50
+Resource\\image\\Kirby_base.bmp 6,578,38,600 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 41,578,73,600 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 74,578,106,600 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 105,578,137,600 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 134,578,166,600 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 162,578,194,600 1 cfb0ff 0
+KirbyEatBack 6 0 50
+Resource\\image\\Kirby_base_back.bmp 722,578,754,600 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 687,578,719,600 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 654,578,686,600 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 623,578,655,600 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 594,578,626,600 1 cfb0ff 0
+Resource\\image\\Kirby_base_back.bmp 566,578,598,600 1 cfb0ff 0
+KirbyStarIn 2 1 100
+Resource\\image\\Kirby_base.bmp 6,277,40,314 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 44,277,78,314 1 cfb0ff 0

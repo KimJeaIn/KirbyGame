@@ -1,0 +1,10 @@
+// id 파일명 [반복여부] [구간반복여부 구간반복시작점 구간반복끝점]
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+TitleBGM Resource\\sound\\04Opening.mp3 1 0
+BossBattle Resource\\sound\\bossbattletheme.mp3 1 0
+Stage1 Resource\\sound\\05greengreens.mp3 0 0
+Stage2 Resource\\sound\\05greengreens2.mp3 1 1 6300 56100
+DieBGMSet Resource\\sound\\donefor.wav 0 0
+GameOverBGM Resource\\sound\\59gameover.mp3 0 0
+End Resource\\sound\\End.mp3 0 0
+Dance Resource\\sound\\Dance.mp3 0 0

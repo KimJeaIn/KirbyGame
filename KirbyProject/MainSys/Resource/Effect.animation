@@ -1,0 +1,94 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+DrainEffect 14 1 30
+Resource\\image\\KirbyDrain.bmp 0,0,70,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 70,0,140,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 140,0,210,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 210,0,280,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 280,0,350,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 350,0,420,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 420,0,490,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 490,0,560,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 560,0,630,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 630,0,700,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 700,0,770,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 770,0,840,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 840,0,910,70 1 000000 0
+Resource\\image\\KirbyDrain.bmp 910,0,980,70 1 000000 0
+DrainEffectBack 14 1 30
+Resource\\image\\KirbyDrainBack.bmp 910,0,980,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 840,0,910,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 770,0,840,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 700,0,770,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 630,0,700,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 560,0,630,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 490,0,560,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 420,0,490,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 350,0,420,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 280,0,350,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 210,0,280,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 140,0,210,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 70,0,140,70 1 000000 0
+Resource\\image\\KirbyDrainBack.bmp 0,0,70,70 1 000000 0
+StarShot 4 1 50
+Resource\\image\\Kirby_base.bmp 148,548,171,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 174,548,197,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 201,548,224,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 227,548,250,572 1 cfb0ff 0
+StarShotEnd 3 0 70
+Resource\\image\\Effects.bmp 2,96,20,114 1 000070 0
+Resource\\image\\Effects.bmp 21,96,39,114 1 000070 0
+Resource\\image\\Effects.bmp 39,96,57,114 1 000070 0
+AirShot 6 0 40
+Resource\\image\\Effects.bmp 2,3,21,22 1 000070 0
+Resource\\image\\Effects.bmp 22,3,41,22 1 000070 0
+Resource\\image\\Effects.bmp 44,3,63,22 1 000070 0
+Resource\\image\\Effects.bmp 63,3,82,22 1 000070 0
+Resource\\image\\Effects.bmp 82,3,101,22 1 000070 0
+Resource\\image\\Effects.bmp 98,3,117,22 1 000070 0
+AirShotBack 6 0 40
+Resource\\image\\EffectsBack.bmp 307,3,326,22 1 000070 0
+Resource\\image\\EffectsBack.bmp 287,3,306,22 1 000070 0
+Resource\\image\\EffectsBack.bmp 265,3,284,22 1 000070 0
+Resource\\image\\EffectsBack.bmp 246,3,265,22 1 000070 0
+Resource\\image\\EffectsBack.bmp 227,3,246,22 1 000070 0
+Resource\\image\\EffectsBack.bmp 211,3,230,22 1 000070 0
+ECutterShot 4 1 40
+Resource\\image\\Enemies.bmp 328,2232,353,2248 1 00dbff 0
+Resource\\image\\Enemies.bmp 356,2232,381,2248 1 00dbff 0
+Resource\\image\\Enemies.bmp 384,2232,409,2248 1 00dbff 0
+Resource\\image\\Enemies.bmp 412,2232,437,2248 1 00dbff 0
+CutterShot 4 1 40
+Resource\\image\\CutterKirby_base.bmp 21,364,49,386 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 57,364,85,386 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 94,364,122,386 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 132,364,160,386 1 609860 0
+CutterShotEnd 8 0 20
+Resource\\image\\CutterKirby_base.bmp 75,400,107,432 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 43,408,75,440 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 41,440,73,472 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 46,470,78,502 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 76,483,108,515 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 109,476,141,508 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 117,440,149,472 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 109,410,141,442 1 609860 0
+CutterEffect 2 0 50
+Resource\\image\\Effects.bmp 36,236,53,252 1 000070 0
+Resource\\image\\Effects.bmp 55,236,72,252 1 000070 0
+StarItem 4 1 100
+Resource\\image\\Kirby_base.bmp 148,548,171,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 174,548,197,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 201,548,224,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 227,548,250,572 1 cfb0ff 0
+StarItem2 4 1 100
+Resource\\image\\Kirby_base.bmp 148,548,171,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 174,548,197,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 201,548,224,572 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 227,548,250,572 1 cfb0ff 0
+KirbyStar 2 1 300
+Resource\\image\\Kirby_base.bmp 89,282,121,314 1 cfb0ff 0
+Resource\\image\\Kirby_base.bmp 127,282,159,314 1 cfb0ff 0
+IceBlock 1 1 100
+Resource\\image\\Effects.bmp 165,296,195,326 1 000070 0

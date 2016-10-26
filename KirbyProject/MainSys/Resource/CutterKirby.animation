@@ -1,0 +1,175 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+CutterKirbyMove 10 1 70
+Resource\\image\\CutterKirby_base.bmp 318,21,343,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 343,21,368,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 369,21,394,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 396,21,421,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 421,21,446,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 447,21,472,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 474,21,499,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 502,21,527,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 530,21,555,48 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 556,21,581,48 1 609860 0
+CutterKirbyMoveBack 10 1 70
+Resource\\image\\CutterKirby_base_back.bmp 246,21,271,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 221,21,246,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 195,21,220,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 168,21,193,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 143,21,168,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 117,21,142,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 90,21,115,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 62,21,87,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 34,21,59,48 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 8,21,33,48 1 609860 0
+CutterKirbyRun 8 1 60
+Resource\\image\\CutterKirby_base.bmp 6,60,32,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 36,60,62,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 65,60,91,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 94,60,120,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 120,60,146,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 148,60,174,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 177,60,203,87 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 206,60,232,87 1 609860 0
+CutterKirbyRunBack 8 1 60
+Resource\\image\\CutterKirby_base_back.bmp 557,60,583,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 527,60,553,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 498,60,524,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 469,60,495,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 443,60,469,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 415,60,441,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 386,60,412,87 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 357,60,383,87 1 609860 0
+CutterKirbyStdEye 1 0 150
+Resource\\image\\CutterKirby_base.bmp 236,224,259,249 1 609860 0
+CutterKirbyStdEyeBack 1 0 150
+Resource\\image\\CutterKirby_base_back.bmp 330,224,353,249 1 609860 0
+CutterKirbyRolling 6 0 30
+Resource\\image\\CutterKirby_base.bmp 291,59,316,90 1 609860 0	
+Resource\\image\\CutterKirby_base.bmp 320,59,345,90 1 609860 0	
+Resource\\image\\CutterKirby_base.bmp 347,59,372,90 1 609860 0	
+Resource\\image\\CutterKirby_base.bmp 377,59,402,90 1 609860 0	
+Resource\\image\\CutterKirby_base.bmp 406,59,431,90 1 609860 0	
+Resource\\image\\CutterKirby_base.bmp 435,59,460,90 1 609860 0	
+CutterKirbyRollingBack 6 0 30
+Resource\\image\\CutterKirby_base_back.bmp 273,59,298,90 1 609860 0	
+Resource\\image\\CutterKirby_base_back.bmp 244,59,269,90 1 609860 0	
+Resource\\image\\CutterKirby_base_back.bmp 217,59,242,90 1 609860 0	
+Resource\\image\\CutterKirby_base_back.bmp 187,59,212,90 1 609860 0	
+Resource\\image\\CutterKirby_base_back.bmp 158,59,183,90 1 609860 0	
+Resource\\image\\CutterKirby_base_back.bmp 129,59,154,90 1 609860 0	
+CutterKirbyJumpEnd 2 1 100
+Resource\\image\\CutterKirby_base.bmp 478,60,500,86 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 507,60,529,86 1 609860 0
+CutterKirbyJumpEndBack 2 1 100
+Resource\\image\\CutterKirby_base_back.bmp 89,60,114,86 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 60,60,85,86 1 609860 0
+CutterKirbyLanding 1 0 70
+Resource\\image\\CutterKirby_base.bmp 33,24,58,45 1 609860 0
+CutterKirbyLandingBack 1 0 70
+Resource\\image\\CutterKirby_base_back.bmp 531,24,556,45 1 609860 0
+CutterKirbyFloatStart 5 0 50
+Resource\\image\\CutterKirby_base.bmp 293,99,317,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 319,99,343,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 186,143,210,173 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 159,143,183,173 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 131,143,155,173 1 609860 0
+CutterKirbyFloatStartBack 5 0 50
+Resource\\image\\CutterKirby_base_back.bmp 272,99,296,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 246,99,270,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 379,143,403,173 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 406,143,430,173 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 434,143,458,173 1 609860 0
+CutterKirbyFloat 2 1 100
+Resource\\image\\CutterKirby_base.bmp 256,313,282,345 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 289,313,315,345 1 609860 0
+CutterKirbyFloatBack 2 1 100
+Resource\\image\\CutterKirby_base_back.bmp 307,313,333,345 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 274,313,300,345 1 609860 0
+CutterKirbyFloatUp 4 0 50
+Resource\\image\\CutterKirby_base.bmp 318,313,344,345 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 348,313,374,345 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 378,313,404,345 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 408,313,434,345 1 609860 0
+CutterKirbyFloatUpBack 4 0 50
+Resource\\image\\CutterKirby_base_back.bmp 245,313,271,345 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 215,313,241,345 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 185,313,211,345 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 155,313,181,345 1 609860 0
+CutterKirbyFloatEnd 2 0 50
+Resource\\image\\CutterKirby_base.bmp 159,143,183,173 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 186,143,210,173 1 609860 0
+CutterKirbyFloatEndBack 2 0 50
+Resource\\image\\CutterKirby_base_back.bmp 406,143,430,173 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 379,143,403,173 1 609860 0
+CutterKirbyShot 6 0 30
+Resource\\image\\CutterKirby_base.bmp 203,369,235,398 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 237,369,269,398 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 273,369,305,398 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 306,369,338,398 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 341,369,373,398 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 371,369,403,398 1 609860 0
+CutterKirbyShotBack 6 0 30
+Resource\\image\\CutterKirby_base_back.bmp 354,369,386,398 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 320,369,352,398 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 284,369,316,398 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 251,369,283,398 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 216,369,248,398 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 186,369,218,398 1 609860 0
+CutterKirbyHit 16 0 30
+Resource\\image\\CutterKirby_base.bmp 244,102,268,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 244,102,268,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 217,102,241,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 217,102,241,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 191,102,215,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 191,102,215,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 165,102,189,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 165,102,189,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 139,102,163,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 139,102,163,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 36,102,60,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 36,102,60,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 7,102,31,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 7,102,31,129 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 506,59,530,86 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 506,59,530,86 1 609860 0
+CutterKirbyHitBack 16 0 30
+Resource\\image\\CutterKirby_base_back.bmp 321,102,345,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 321,102,345,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 348,102,372,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 348,102,372,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 374,102,398,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 374,102,398,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 400,102,424,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 400,102,424,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 426,102,450,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 426,102,450,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 529,102,553,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 529,102,553,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 558,102,582,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 558,102,582,129 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 59,59,83,86 1 609860 0
+Resource\\image\\CutterKirby_base_back.bmp 59,59,83,86 1 609860 0
+CutterKirbyChange 20 0 50
+Resource\\image\\CutterKirby_base.bmp 372,366,401,396 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 307,366,336,396 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 342,366,371,396 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0
+Resource\\image\\CutterKirby_base.bmp 546,316,575,346 1 609860 0

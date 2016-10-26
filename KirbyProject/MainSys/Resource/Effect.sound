@@ -1,0 +1,21 @@
+// id 파일명 [반복여부] [구간반복여부 구간반복시작점 구간반복끝점]
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+HitEnd Resource\\sound\\HitEnd.wav 0 0
+Hit Resource\\sound\\Hit.wav 0 0
+Jump Resource\\sound\\Jump.wav 0 0
+Land Resource\\sound\\Land.wav 0 0
+DrainS Resource\\sound\\DrainS.wav 0 0
+DrainR Resource\\sound\\DrainS.wav 1 1 1000 1800
+StarShot Resource\\sound\\StarShot.wav 0 0
+StarShotEnd Resource\\sound\\StarShotEnd.wav 0 
+Run Resource\\sound\\Run.wav 0 0
+Float Resource\\sound\\Float.wav 0 0
+FloatAir Resource\\sound\\FloatAir.wav 0 0
+ECutter Resource\\sound\\ECutter.wav 0 0
+Eat Resource\\sound\\Eat.wav 0 0
+Change Resource\\sound\\Change.wav 0 0
+Cutter Resource\\sound\\Cutter.wav 0 0
+CutterHit Resource\\sound\\CutterHit.wav 0 0
+BoundStar Resource\\sound\\BoundStar.wav 0 0
+StarIn Resource\\sound\\StarIn.wav 0 0
+Item Resource\\sound\\Item.wav 0 0

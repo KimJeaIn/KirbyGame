@@ -1,0 +1,32 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+Title 20 0 50
+Resource\\image\\Title.bmp 13,19,203,144 1 000000 0
+Resource\\image\\Title.bmp 256,19,446,144 1 000000 0
+Resource\\image\\Title.bmp 499,19,689,144 1 000000 0
+Resource\\image\\Title.bmp 13,147,203,272 1 000000 0
+Resource\\image\\Title.bmp 256,147,446,272 1 000000 0
+Resource\\image\\Title.bmp 499,147,689,272 1 000000 0
+Resource\\image\\Title.bmp 13,275,203,400 1 000000 0
+Resource\\image\\Title.bmp 256,275,446,400 1 000000 0
+Resource\\image\\Title.bmp 499,275,689,400 1 000000 0
+Resource\\image\\Title.bmp 13,403,203,528 1 000000 0
+Resource\\image\\Title.bmp 256,403,446,528 1 000000 0
+Resource\\image\\Title.bmp 499,403,689,528 1 000000 0
+Resource\\image\\Title.bmp 13,531,203,656 1 000000 0
+Resource\\image\\Title.bmp 256,531,446,656 1 000000 0
+Resource\\image\\Title.bmp 499,531,689,656 1 000000 0
+Resource\\image\\Title.bmp 13,659,203,784 1 000000 0
+Resource\\image\\Title.bmp 256,659,446,784 1 000000 0
+Resource\\image\\Title.bmp 499,659,689,784 1 000000 0
+Resource\\image\\Title.bmp 13,787,203,912 1 000000 0
+Resource\\image\\Title.bmp 256,787,446,912 1 000000 0
+GameEnd 6 1 100
+Resource\\image\\End.bmp 4,688,252,880 0 0
+Resource\\image\\End.bmp 260,688,508,880 0 0
+Resource\\image\\End.bmp 516,688,764,880 0 0
+Resource\\image\\End.bmp 772,688,1020,880 0 0
+Resource\\image\\End.bmp 1028,688,1276,880 0 0
+Resource\\image\\End.bmp 1284,688,1532,880 0 0

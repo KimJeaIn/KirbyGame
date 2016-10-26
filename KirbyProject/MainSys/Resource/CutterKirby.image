@@ -1,0 +1,14 @@
+// id 파일명 그려질부분 transparent사용여부 [값1] alpha사용여부 [값2]
+// [값1] : 투명처리할 색
+// [값2] : 알파값
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+CutterKirbyStd Resource\\image\\CutterKirby_base.bmp 6,20,29,45 1 609860 0
+CutterKirbyStdBack Resource\\image\\CutterKirby_base_back.bmp 560,20,583,45 1 609860 0
+CutterKirbyBreak Resource\\image\\CutterKirby_base.bmp 120,222,146,249 1 609860 0
+CutterKirbyBreakBack Resource\\image\\CutterKirby_base_back.bmp 443,222,469,249 1 609860 0
+CutterKirbyJumpStart Resource\\image\\CutterKirby_base.bmp 250,58,275,86 1 609860 0
+CutterKirbyJumpStartBack Resource\\image\\CutterKirby_base_back.bmp 314,58,339,86 1 609860 0
+Dark Resource\\image\\Dark.bmp 25,25,50,50 0 1 50 0
+BossIdle Resource\\image\\Boss.bmp 5,5,53,45 1 789860 0
+BossIdleBack Resource\\image\\Boss_back.bmp 152,5,200,45 1 789860 0
+Tomato Resource\\image\\Item.bmp 529,356,549,375 1 ffffff 0
